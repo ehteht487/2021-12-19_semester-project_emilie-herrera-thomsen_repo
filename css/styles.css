@@ -4,17 +4,21 @@ body {
   font-family: Proxima Nova, Verdana, Tahoma, sans-serif;
 }
 
-
 h1,
 h2,
 h3,
-.logo {
+.logolink {
   font-family: Ambroise Std, Cambria, Georgia, serif;
 }
 
+.logolink {
+  color: #012578;
+  font-size: 2rem;
+  text-decoration: none;
+}
 
-.lolo {
-    max-width: 65px;
+.logo {
+  max-width: 50px;
 }
 
 .open {
@@ -26,6 +30,7 @@ h3,
 
 nav li {
   display: inline;
+  align-items: center;
 }
 
 nav a {
@@ -38,16 +43,30 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Homepage */
-.home {
-    background-image: url("../images/images_home_page/planet_sun_rising.jpg");
-    background-size: 100%;
-    min-height: 80vh;
-
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.footercontain {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  flex: 1;
+}
+
+.list {
+  flex: 4;
+}
+
+/* Homepage */
 .home {
-    diplay flex: ;
+  background-image: url("../images/images_home_page/planet_sun_rising.jpg");
+  background-size: 100%;
+  min-height: 80vh;
 }
 
 header section {
@@ -68,6 +87,10 @@ header section {
   background-color: #a83799;
   color: #ffffff;
   text-decoration: none;
-  font-size: 3,4rem;
+  font-size: 3, 4rem;
+}
 
-
+.footer {
+  color: #ffffff;
+  background-color: #4a7e85;
+}
