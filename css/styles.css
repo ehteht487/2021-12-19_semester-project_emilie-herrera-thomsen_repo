@@ -1,3 +1,66 @@
+@import url(<linkrel="stylesheet"href="https://use.typekit.net/bmh6rcg.css">);
+
 body {
-  background-color: red;
+  font-family: Proxima Nova, Verdana, Tahoma, sans-serif;
 }
+
+
+h1,
+h2,
+h3,
+.logo {
+  font-family: Ambroise Std, Cambria, Georgia, serif;
+}
+
+
+.lolo {
+    max-width: 65px;
+}
+
+.open {
+  background-color: #57164e;
+  color: #ffffff;
+  font-size: 1, 3rem;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: #012578;
+  padding: 35 rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Homepage */
+#home {
+    background-image: url("../images/images_home_page/planet_sun_rising.jpg");
+}
+
+header section {
+  color: #012578;
+}
+
+.log {
+  color: #012578;
+}
+
+.explore {
+  color: #ffffff;
+  background-color: #4a7e85;
+}
+
+.button1,
+.button2 {
+  background-color: #a83799;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 3,4rem;
+
+
