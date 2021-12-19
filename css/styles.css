@@ -39,8 +39,15 @@ nav a:hover {
 }
 
 /* Homepage */
-#home {
+.home {
     background-image: url("../images/images_home_page/planet_sun_rising.jpg");
+    background-size: 100%;
+    min-height: 80vh;
+
+}
+
+.home {
+    diplay flex: ;
 }
 
 header section {
