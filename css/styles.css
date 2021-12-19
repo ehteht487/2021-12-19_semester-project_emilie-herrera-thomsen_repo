@@ -82,6 +82,22 @@ header section {
   background-color: #4a7e85;
 }
 
+.article {
+  max-width: 300px;
+}
+
+.article__image {
+  width: 100%;
+}
+
+.event {
+  max-width: 400px;
+}
+
+.event__image {
+  max-width: 100%;
+}
+
 .button1,
 .button2 {
   background-color: #a83799;
@@ -93,4 +109,42 @@ header section {
 .footer {
   color: #ffffff;
   background-color: #4a7e85;
+}
+
+/* Explore page */
+
+.forkids {
+  max-width: 400px;
+}
+
+.forkids__image {
+  max-width: 100%;
+}
+
+.forteachers {
+  max-width: 500px;
+}
+
+.forteachers__image {
+  max-width: 100%;
+}
+
+/* Exhibitions */
+
+.cos {
+  max-width: 300px;
+}
+
+.cos__image {
+  max-width: 100%;
+}
+
+/* Events and exhibitions*/
+
+.eve {
+  max-width: 400px;
+}
+
+.eve__image {
+  max-width: 100%;
 }
