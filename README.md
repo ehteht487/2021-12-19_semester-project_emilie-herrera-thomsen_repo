@@ -21,7 +21,7 @@ run npm install git –g
 ### Running
 After installing npm, clone the repo
 ```bash
-https://github.com/ehteht487/2022_cross-course-project_emilie-herrera-thomsen
+https://github.com/ehteht487/2021-12-19_semester-project_emilie-herrera-thomsen_repo
 ```
 ## Contributing
 If you wish to help me make my project better, please feel free to do so :) 
